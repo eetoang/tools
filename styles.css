@@ -278,34 +278,39 @@ li{
 .content-sidebar{
     font-size:14px;
     color:#3b3c3e;
-    margin-top:18px;
-}
+    margin-top:18px;}
 .content-sidebar.fixed{
     position:fixed;
     top:0;
-    margin-top:18px;
-}
+    margin-top:0;}
 .content-sidebar.fixed dl{
-    margin:20px 10 0;
-}
-
+    margin:10px 0 0;}
+.content-sidebar.absolute{
+    position:absolute;
+    bottom:0;}
+.content-sidebar dl{
+    position:relative;
+    margin:-12px 0 0;
+    padding-bottom:20px;}
+.content-sidebar dl dt{
+    position:absolute;
+    top:12px;
+    left:-20px;}
 .content-sidebar dl .show-list{
     display:block;
-    width:20px;
+    width:16px;
     height:16px;
-    cursor:pointer;
-}
+    cursor:pointer;}
 .content-sidebar dl .show-list::before{
     content:'';
     display:block;
-   /* width:12px;
-    height:2px;*/
+    width:12px;
+    height:2px;
     background:#000;
     border-radius:1px;
     position:absolute;
     top:50%;
-    margin-top:-1px;
-}
+    margin-top:-1px;}
 .content-sidebar dl .show-list.add::after{
     content:'';
     display:block;
@@ -314,45 +319,36 @@ li{
     background:#000;
     border-radius:1px;
     position:absolute;
-    left:4px;
+    left:5px;
     top:20%;
-    margin-top:-1px;
-}
+    margin-top:-1px;}
 .content-sidebar dd{
     margin:0;
-    padding:5px 0;
-    letter-spacing:0.5px;
-}
+    padding:6px 0;
+    letter-spacing:0.5px;}
 .content-sidebar dd a{
     color:#5e5d5b;
     display:inline-block;
-    padding:0px 4px;
-    transition:0.1s;
-}
+    padding:2px 4px;
+    transition:0.1s;}
 .content-sidebar dd a:hover{
     color:#fff;
     background:#ff5a00;
-    border-radius:3px;
-}
+    border-radius:3px;}
 .content-sidebar dd.current a{
     color:#ff5a00;
-    background:transparent;
-}
+    background:transparent;}
 @media (max-width: 1199px){
     .content-sidebar{
         font-size:12px;
         margin-left:0;
-        padding-right:0;
-    }
-    .content-sidebar dt{
-        display:none;
-    }
-}
+        padding-right:0;}
+    .content-sidebar dt{display:none;}}
 @media screen and (max-width: 991px){
     .content-sidebar{
-        display:none;
-    }
-}
+        display:none;}}
+
+
 .content .row{
     position:relative;
 }
