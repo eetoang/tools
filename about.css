@@ -1,0 +1,94 @@
+/*.credits a{
+margin-left:0;
+margin-right:0}
+
+.credits{
+position:static;
+width:61.33333%;
+padding:0 1.5em;
+float:left}
+
+.credits{
+width:100%;
+margin-bottom:3em}
+
+.about{
+position:static;
+width:61.33333%;
+padding:0 1.5em;
+float:left 
+}
+
+.footer-copyright{
+    position: static;
+    background-color:#f00056;
+    text-align:center;
+    padding:28px 0 20px;
+    font-size:12px;
+    line-height:18px;
+    color:#dff2ff;
+}
+@media (min-width: 1200px){
+    .footer-copyright{
+        height:50px;
+    }
+}
+.footer-copyright p{
+    margin-bottom:8px;*/
+
+.about{
+position:relative;  
+width:100%;
+min-height:80px;
+padding:40px 50px 40px 50px ;
+float:left;
+ }
+.about h2{
+    padding-bottom: 15px;
+    text-align: center;
+}
+.about p{
+    line-height: 30px;
+    text-align: center;
+}
+.credits{
+    position: relative;
+    width: auto;
+    padding: 30px 50px 50px 50px;
+    text-align: center;
+}
+.credits p{
+    padding-top: 10px;
+}
+.subscription-form,.credits h2{
+    padding-bottom: 15px;
+    text-align: center;
+}
+.subscription-form{
+    padding-top: 25px;
+}
+.subscription-form p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+input[type=text], input[type=submit] {
+  width: 30%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #0f4c81;
+  box-sizing: border-box;
+    font-size: 12px;
+}
+
+input[type=submit] {
+width: 100px;
+  background-color: #0f4c81;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}

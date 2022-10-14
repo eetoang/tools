@@ -1,0 +1,126 @@
+.color-main .row,
+.color-main .row {
+  margin-left: -3px;
+  margin-right: -3px;
+}
+/*@media (min-width: 768px) {
+  .color-main .row,
+  .color-main .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}*/
+.col-xs-1_5 {
+  width: 20%;
+  float: left;
+  padding: 0 10px;
+}
+/*@media (min-width: 768px) {
+  .col-xs-1_5 {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .col-md-1_5 {
+    width: 20%;
+  }
+}*/
+.description h1{
+position:relative;  
+width:100%;
+min-height:80px;
+padding:20px 500px 0px 70px ;
+float:left;
+}
+.description h2{
+position:relative;  
+width:100%;
+min-height:80px;
+padding:0px 500px 20px 70px ;
+float:left;
+}
+.description{
+font-family:"Lato", "Helvetica", Helvetica, sans-serif;
+font-weight:400;
+letter-spacing: 2px;    
+line-height:40px;
+font-size:16px;
+}
+.description h1{
+font-family:"Lato", "Helvetica", Helvetica, sans-serif;
+    color: #A9A9A9;
+font-weight:400;
+letter-spacing: 1px;    
+line-height:50px;
+font-size:16px;
+}
+.color-main ul {
+  padding: 0;
+}
+.color-main .item {
+  margin-bottom: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .2s;
+  color: #333;
+}
+.color-main .item:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transform: translate(0, -3px);
+}
+.color-main .item h3
+{
+  font-size: 15px;
+  line-height: 15px;
+}
+.color-main .item h4 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 10px;
+}
+/*@media (min-width: 768px) {
+  .color-main .item h3
+    {
+    font-size: 14px;
+  }
+  .color-main .item h4 {
+    font-size: 14px;
+  }
+}*/
+.color-main .item.copy-content {
+  width: 2px;
+  height: 0;
+  opacity: 0;
+  padding: 0;
+  border: none;
+  position: absolute;
+}
+.color-main .item-clr-color {
+  padding: 20px 5px 5px;
+  border-radius: 12px;
+}
+/*@media (min-width: 768px) {
+  .color-main .item-clr-color {
+    padding: 60px 15px 15px;
+  }
+}*/
+.color-main .item-clr-color h3,.color-main .item-clr-color h4 {
+  max-width: 200px;
+  height: auto;
+  overflow: hidden;
+}
+/*@media (min-width: 768px) {
+  .color-main .item-clr-color h3,
+  .color-main .item-clr-color h4 {
+    max-width: none;
+    height: auto;
+  }
+}*/
+
+/*@media (min-width: 768px) {
+  .color-main {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+}*/
